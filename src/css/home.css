@@ -1,3 +1,21 @@
+.container-sair {
+    border: 1px solid #BD9773;
+    font-size: 30px;
+    padding: 5px 25px;
+    transition: 0.2s ease-in-out;
+    color: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.container-sair:hover {
+    background-color: #000000;
+    color: #BD9773;
+    border-color: black;
+}
 
 .conteudo-principal {
     width: 90%;
@@ -27,7 +45,7 @@
 .conteudo-principal .h-name {
     width: 100%;
     min-height: 100px;
-    margin-top: 5%;
+    margin-top: 6%;
     margin-bottom: 100px;
 }
 
