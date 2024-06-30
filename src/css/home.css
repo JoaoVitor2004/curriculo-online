@@ -1,0 +1,131 @@
+
+.conteudo-principal {
+    width: 90%;
+    max-width: 2024px;
+    min-height: 100%;
+    margin: auto;
+
+}
+
+.w-100 {
+    margin-bottom: 20px;
+}
+
+.h-title {
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 26px;
+    height: 80PX;
+    margin-bottom: 50PX;
+    border-bottom: 2px solid #BD9773;
+}
+
+.secao {
+    margin-bottom: 10%;
+}
+
+.conteudo-principal .h-name {
+    width: 100%;
+    min-height: 100px;
+    margin-top: 5%;
+    margin-bottom: 100px;
+}
+
+.conteudo-principal .h-name h1 {
+    font-weight: bold;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #232323;
+}
+
+.conteudo-principal .h-name h2 {
+    font-weight: bold;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #BD9773;
+}
+
+.h-sobre .w-100 p {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 35px;
+}
+
+.h-educacao .item {
+    margin-bottom: 50px;
+}
+
+.h-educacao .item .title {
+    color: #433329;
+}
+
+.h-educacao .item .title span {
+    color: #8E6742;
+}
+
+.h-habilidades .itens {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.itens .item {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.itens .item .title {
+    color: #433329;
+}
+
+.itens .item .icon {
+    position: relative;
+    width: 200px;
+    height: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 25px;
+}
+
+.itens .item .icon .porcentagem-100 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #433329;
+    border-radius: 25px;
+}
+ 
+.itens .item .icon .porcentagem-50 {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: #433329;
+    border-radius: 25px;
+}
+
+.itens .item .icon .porcentagem-70 {
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    background-color: #433329;
+    border-radius: 25px;
+}
+
+.itens .item .icon .tecnologia {
+    font-size: 40px;
+}
+
+.h-contato .item {
+    color: #433329;
+}
+
+.secao .h-contato .item p {
+    font-size: 18px;
+}
+
+.rodape {
+    width: 100%;
+    height: 80px;
+    background-color: #433329;
+}
